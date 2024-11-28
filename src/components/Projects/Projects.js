@@ -6,6 +6,8 @@ import plant from "../../Assets/Projects/plant-garden-01.webp";
 import vuexy from "../../Assets/Projects/vuexy.webp";
 import ninico from "../../Assets/Projects/Ninico.png";
 import food from "../../Assets/Projects/Food-Del.png";
+import nolanAi from "../../Assets/Projects/Nolanai.png";
+
 
 function Projects() {
   return (
@@ -46,6 +48,16 @@ function Projects() {
               title="Ninico E-Commerce"
               description="I developed Ninico, an e-commerce platform specializing in wooden products, using React and Redux. This online shop provides a seamless user experience with features like product browsing, filtering, and a dynamic shopping cart. Redux ensures efficient state management, enabling smooth interactions and real-time updates. The platform is designed to be visually appealing and user-friendly, catering to customers seeking high-quality wooden items."
               ghLink="https://github.com/ryash2166/Yash_Wooden"           
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nolanAi}
+              isBlog={false}
+              title="NolanAI (in Working)"
+              description="NolanAI is an innovative platform designed to simplify and enhance storytelling. It empowers users to create compelling pitch decks, visualize ideas, and streamline workflows using AI-driven tools. With features like ready-made templates, cast suggestions, and story visualization, NolanAI ensures a seamless and efficient creative process for storytellers and professionals alike."
+              ghLink="https://github.com/ryash2166/Yash_NolanAI"
             />
           </Col>
 
